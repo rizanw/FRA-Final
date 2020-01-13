@@ -195,7 +195,7 @@
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         rects.forEach((rect,idx) => {
           // drawRectangle(rect,"red")
-          filter = new Filter('racoon',rect.left, rect.top, rect.width, rect.height);
+          filter = new Filter('sweat',rect.left, rect.top, rect.width, rect.height);
           img = filter.generate();
           img.crossOrigin="anonymous" 
           img.onload = function() {
